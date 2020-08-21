@@ -34,6 +34,9 @@
     methods: {
       remove(id) {
         this.$emit('remove', id)
+      },
+      select(id) {
+      this.$emit('select', id)
       }
     }
   }
